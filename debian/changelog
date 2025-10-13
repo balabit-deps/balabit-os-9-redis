@@ -1,3 +1,12 @@
+redis (5:6.0.16-1ubuntu1.1) jammy-security; urgency=medium
+
+  * SECURITY UPDATE: remote code execution
+    - debian/patches/CVE-2025-49844.patch: protect TString on stack
+      during parsing to prevent use-after-free condition in lparser.c
+    - CVE-2025-49844
+
+ -- Sudhakar Verma <sudhakar.verma@canonical.com>  Mon, 13 Oct 2025 22:00:59 +0530
+
 redis (5:6.0.16-1ubuntu1) jammy; urgency=medium
 
   * SECURITY UPDATE: Lua sandbox escape
