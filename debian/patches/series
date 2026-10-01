@@ -8,3 +8,4 @@ debian-packaging/0007-Set-Debian-configuration-defaults.patch
 debian-packaging/0008-Ensure-we-use-the-modules-for-third-party-libraries.patch
 0009-Send-the-readiness-notification-when-we-are-ready-to.patch
 CVE-2025-49844.patch
+CVE-2026-81934.patch

@@ -1,3 +1,12 @@
+redis (5:6.0.16-1ubuntu1.2) jammy-security; urgency=medium
+
+  * SECURITY UPDATE: Use-after-free vulnerability in tlsProcessPendingData()
+    - debian/patches/CVE-2026-81934.patch: Fix use-after-free in
+      tlsProcessPendingData() pending-list iteration (#1391) in src/tls.c.
+    - CVE-2026-81934
+
+ -- Hurman <hurman@canonical.com>  Thu, 01 Oct 2026 15:34:50 +0800
+
 redis (5:6.0.16-1ubuntu1.1) jammy-security; urgency=medium
 
   * SECURITY UPDATE: remote code execution
